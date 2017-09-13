@@ -11,6 +11,10 @@ export default class App extends React.Component {
       </View>
     );
   }
+
+  func1 = () => {
+      return true;
+  }
 }
 
 const styles = StyleSheet.create({
